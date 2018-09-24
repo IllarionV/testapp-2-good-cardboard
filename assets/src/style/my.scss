@@ -18,6 +18,7 @@ body {
 .main {
     position: relative;
     background: url(../img/bg-main.jpg) center no-repeat;
+    background-size: cover;
     color: $white;
     z-index: 1;
 
@@ -62,5 +63,49 @@ body {
             font-weight: 300;
         }
 
+        &_form {
+            padding: 2rem 1.7rem;
+            background-color: rgba(255, 255, 255, 0.2);
+        }
     }
+
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+
+    &-title {
+        margin-bottom: 0.5rem;
+        padding-right: 2.3rem;
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+
+        &_important {
+            font-weight: 700;
+            text-transform: uppercase;
+
+        }
+    }
+
+    &-input {
+        margin-right: 1rem;
+        padding: 1.1rem;
+        border-radius: 4px;
+        border: none;
+        flex-basis: 60%;
+    }
+
+    &-small {
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+}
+
+.btn-big {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    vertical-align: middle;
+    flex-basis: 40%;
 }
