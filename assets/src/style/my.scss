@@ -1,2 +1,12 @@
+.header {
+    &-contacts {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
 
-
+        &_phone {
+            font-size: 1.3rem;
+            margin-right: 1rem;
+        }
+    }
+}
