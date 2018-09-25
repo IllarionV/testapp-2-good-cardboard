@@ -109,3 +109,67 @@ body {
     vertical-align: middle;
     flex-basis: 40%;
 }
+
+.features {
+    background-color: $bg-color-light;
+    padding-top: 3rem;
+    padding-bottom: 3.5rem;
+
+    &-blocks {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &-block {
+        display: flex;
+        align-items: center;
+        flex-basis: 30%;
+        background-color: #fff;
+        padding: 1.8rem 1.5rem;
+        margin-bottom: 2rem;
+
+        &__img {
+            flex-basis: 40%;
+            margin-right: 0.6rem;
+        }
+
+        &__title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 0.3rem;
+        }
+        &__descr {
+            font-size: 1rem;
+            font-weight: 400;
+        }
+    }
+}
+
+.numbers {
+    text-align: center;
+    margin-bottom: 2.2rem;
+
+    &-block {
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+
+        &__title {
+            margin-bottom: 0.8rem;
+            font-size: 2rem;
+            font-weight: 900;
+            color: $warning;
+
+            sup {
+                font-size: 1.2rem;
+                ;
+            }
+        }
+
+        &__text {
+            font-size: 1rem;
+            font-weight: 400;
+        }
+    }
+}
