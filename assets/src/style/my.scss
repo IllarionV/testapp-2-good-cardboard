@@ -100,6 +100,7 @@ body {
     &-small {
         font-size: 0.8rem;
         font-weight: 300;
+        display: block;
     }
 }
 
@@ -139,6 +140,7 @@ body {
             font-weight: 700;
             margin-bottom: 0.3rem;
         }
+
         &__descr {
             font-size: 1rem;
             font-weight: 400;
@@ -170,6 +172,85 @@ body {
         &__text {
             font-size: 1rem;
             font-weight: 400;
+        }
+    }
+}
+
+.section-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+
+    &::after {
+        content: '';
+        margin-top: 0.7rem;
+        display: block;
+        height: 0.3rem;
+        background: url(../img/h2.png) center no-repeat;
+    }
+}
+
+.products {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+
+    &-block {
+        margin-bottom: 2rem;
+        text-align: center;
+
+        &__img {
+            margin-bottom: 1rem;
+        }
+
+        &__title {
+            margin-bottom: 1.5rem;
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+    }
+}
+
+.button-o {
+    background-color: transparent;
+    border: 1px solid rgba(#373737, 0.5);
+}
+
+.offer {
+    padding-top: 4rem;
+    padding-bottom: 4.2rem;
+    color: white;
+    background: grey url(..\img\spec-form-b__bg1.jpg) center no-repeat;
+    text-align: center;
+
+    &-title {
+        font-size: 2rem;
+        font-weight: 300;
+
+        &_small {
+            font-size: 1.8rem;
+            display: block;
+            margin-bottom: 1.2rem;
+        }
+    }
+
+    &-form {
+
+        &_label {
+            display: block;
+            font-size: 1.2rem;
+            font-weight: 300;
+
+        }
+
+        &_input {
+            margin-right: 1rem;
+            margin-bottom: 1rem;
+            padding: 1.1rem;
+            border-radius: 4px;
+            border: none;
+            flex-basis: 58%;
         }
     }
 }
