@@ -48,6 +48,10 @@
 //@import "../../../node_modules/bootstrap/scss/_carousel";
 @import "../../../node_modules/bootstrap/scss/_utilities";
 
+// Подключение файлов silck-carousel
+@import "slick";
+
+
 
 // Подключение своих SCSS файлов
 @import "my";
