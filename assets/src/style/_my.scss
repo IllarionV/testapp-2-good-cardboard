@@ -263,7 +263,7 @@ body {
         position: relative;
         z-index: 2;
         margin-top: 1rem;
-        
+
         &_top {
             margin-bottom: 0.7rem;
             height: 380px;
@@ -332,6 +332,7 @@ body {
 .make-slider-btn {
     &:hover {
         background-color: rgba(#ff9d00, 0.9);
+        outline: none;
     }
 }
 
@@ -347,3 +348,61 @@ body {
     right: -.1rem;
     background: url(../img/make/next.png)#ff9d00 center no-repeat;
 }
+
+.feedback {
+    padding-bottom: 7rem;
+    background: #f4f4f4;
+}
+
+.section_title {
+    text-align: center;
+    margin-top: 5.5rem;
+    margin-bottom: 3rem;
+}
+
+h1.section_title {
+    margin: 0;
+    font-size: 2.7rem;
+    font-family: 'Roboto_bold', sans-serif;
+}
+
+.feedback-slider {
+    position: relative;
+    margin: 0 auto;
+}
+
+.feedback-slider img {
+    margin: 0 auto;
+    width: 27rem;
+    height: 38rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.feedback-arrow {
+    z-index: 1000;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -4rem;
+    height: 8rem;
+    width: 3rem;
+    border: none;
+   &:hover {
+    outline: none;  
+   }
+}
+
+
+.prev2 {
+    background: url(../img/feedback/prev2.png) center no-repeat;
+    left: -4rem;
+    outline: none;  
+}
+
+.next2 {
+    background: url(../img/feedback/next2.png) center no-repeat;
+    right: -4rem;
+    outline: none;  
+}
+

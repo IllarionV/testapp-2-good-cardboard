@@ -17,3 +17,14 @@
                 prevArrow: '<button type="button" class="make-slider-btn prev-btn"></button>',
                 nextArrow: '<button type="button" class="make-slider-btn next-btn"></button>'
             });
+
+            $('.feedback-slider').slick({
+                arrow: true,
+                dots: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                focusOnSelect: true,
+                prevArrow: '<button class="feedback-arrow prev2"></button>',
+                nextArrow: '<button class="feedback-arrow next2"></button>'
+
+            });
