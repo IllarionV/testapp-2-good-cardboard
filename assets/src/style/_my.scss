@@ -388,21 +388,49 @@ h1.section_title {
     height: 8rem;
     width: 3rem;
     border: none;
-   &:hover {
-    outline: none;  
-   }
+
+    &:hover {
+        outline: none;
+    }
 }
 
 
 .prev2 {
     background: url(../img/feedback/prev2.png) center no-repeat;
     left: -4rem;
-    outline: none;  
+    outline: none;
 }
 
 .next2 {
     background: url(../img/feedback/next2.png) center no-repeat;
     right: -4rem;
-    outline: none;  
+    outline: none;
 }
 
+.contacts {
+    //padding-top: 5rem;
+    //padding-bottom: 6rem;
+    position: relative;
+
+    &-block {
+        position: absolute;
+        left: 70%;
+        top: 10%;
+        background: #fff;
+        padding: 2rem;
+        padding-left: 3rem;
+
+        &__title {
+            display: block;
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 0.4rem;
+            margin-top: 0.5rem;
+        }
+        &__text {
+            margin-bottom: 1.8rem;
+        }
+
+
+    }
+}
