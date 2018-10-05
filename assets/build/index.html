@@ -27,28 +27,28 @@
             <div class="container">
                 <ul class="navbar-nav justify-content-center text-uppercase mr-auto  mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">О&nbspкомпании</a>
+                        <a class="nav-link" href="#1">О&nbspкомпании</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Преимущества</a>
+                        <a class="nav-link" href="#2">Преимущества</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Производство</a>
+                        <a class="nav-link" href="#3">Производство</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Продукция</a>
+                        <a class="nav-link" href="#4">Продукция</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Наши&nbspклиенты</a>
+                        <a class="nav-link" href="#5">Наши&nbspклиенты</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Сертификаты</a>
+                        <a class="nav-link" href="#6">Сертификаты</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Отзывы</a>
+                        <a class="nav-link" href="#7">Отзывы</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Контакты</a>
+                        <a class="nav-link" href="#8">Контакты</a>
                     </li>
                 </ul>
             </div>
@@ -70,7 +70,7 @@
                         <div class="header-contacts_phone">
                             +&nbsp375&nbsp29&nbsp8743660
                         </div>
-                        <button class="btn btn-warning text-white"><img class="header-img pr-2 pb-1" src="img/phone.png"
+                        <button class="btn header-btn btn-warning text-white"><img class="header-img pr-2 pb-1" src="img/phone.png"
                                 alt="phone">Заказать&nbspзвонок</button>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
         </div>
     </header>
 
-    <div class="main jumbotron mt-4">
+    <div class="main jumbotron mt-4" id="1">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-6">
@@ -112,7 +112,7 @@
         </div>
     </div>
 
-    <section class="features">
+    <section class="features" id="2">
         <div class="container">
             <!-- строчно-блочный вариант размещение контента-->
             <div class="numbers">
@@ -133,7 +133,7 @@
         </div>
     </section>
 
-    <section class="features-blocks">
+    <section class="features-blocks" id="3">
         <!-- флексовый вариант размещение контента-->
         <div class="features-block">
             <div class="features-block__img">
@@ -204,7 +204,7 @@
         </div>
     </section>
 
-    <section class="products">
+    <section class="products" id="4">
         <!-- BS-4-->
         <div class="container">
             <h2 class="section-title">НАША ПРОДУКЦИЯ</h2>
@@ -267,7 +267,7 @@
         </div>
     </section>
 
-    <section class="offer">
+    <section class="offer" id="6">
         <div class="container">
             <h2>
                 Получите индивидуальное предложение
@@ -286,7 +286,7 @@
         </div>
     </section>
 
-    <section class="make">
+    <section class="make" id="7">
         <div class="container">
             <div class="row">
                 <div class="col-7">
@@ -324,7 +324,7 @@
             </div>
         </div>
     </section>
-    <section class="feedback">
+    <section class="feedback" id="7">
         <div class="container">
             <h1 class="section_title">
                 Oтзывы о сотрудничестве
@@ -385,7 +385,7 @@
         </div>
     </section>
 
-    <section class="contacts">
+    <section class="contacts" id="8">
         <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A731a5099b254a36c668b3e809933cada477d28b97cd7a9dd46905b6e7c22bcbb&amp;width=100%25&amp;height=550&amp;lang=ru_RU&amp;scroll=false"></script>
         <div class="contacts-block">
             <div class="contacts-block__adress сontacts-block__text">
@@ -411,6 +411,30 @@
             </div>
         </div>
     </section>
+
+    <div class="overlay">
+        <div class="popup">
+            <div class="popup-title">
+                Форма обратной связи
+            </div>
+            <div class="popup-close">&times;</div>
+            <div class="popup-form">
+                <form action="#" class="main-form">
+                    <div class="popup-form-header">
+                        Получите индивидуальное предложение<span>на производство и поставку изделий</span>
+                        <label for="phone" class="popup-form__label">Введите ваш номер телефона:</label>
+                        <input type="tel" class="popup-form__input" name="phone" required>
+                        <button class="btn btn-warning popup-form__btn">
+                            Оставить заявку!
+                        </button>
+                        <div class="popup-form__note">
+                            <small class="form-small">*Минимальный заказ 500шт</small>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
 
     <script src="js/main.js" type="text/javascript"></script>

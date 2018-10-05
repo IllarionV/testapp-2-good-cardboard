@@ -28,3 +28,10 @@
                 nextArrow: '<button class="feedback-arrow next2"></button>'
 
             });
+
+            $('.header-btn').on("click", function () {
+                $('.overlay').show();
+            });
+            $('.popup-close').on("click", function () {
+                $('.overlay').hide();
+            });
