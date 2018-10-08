@@ -13,9 +13,17 @@
                 slidesToShow: 4,
                 slidesToScroll: 1,
                 arrow: true,
-                asNavFor: '.make-slider_top',
+                responsive: [{
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }],
+                asNavFor:  '.make-slider_top',
                 prevArrow: '<button type="button" class="make-slider-btn prev-btn"></button>',
                 nextArrow: '<button type="button" class="make-slider-btn next-btn"></button>'
+
             });
 
             $('.feedback-slider').slick({
@@ -24,6 +32,13 @@
                 slidesToShow: 3,
                 slidesToScroll: 1,
                 focusOnSelect: true,
+                responsive: [{
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }],
                 prevArrow: '<button class="feedback-arrow prev2"></button>',
                 nextArrow: '<button class="feedback-arrow next2"></button>'
 

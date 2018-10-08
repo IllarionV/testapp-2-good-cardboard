@@ -3,14 +3,30 @@ body {
 }
 
 .header {
+    margin-top: 1rem;
+
+    &-logo {
+        background: url(../img/logo.png) center no-repeat;
+        background-size: 100%;
+        width: 191px;
+        height: 61px;
+        padding: 1rem;
+    }
+
     &-contacts {
+
         display: flex;
         justify-content: flex-end;
         align-items: center;
 
-        &_phone {
+
+        &_phones {
+            display: flex;
+            justify-content: flex-start;
             font-size: 1.3rem;
             margin-right: 1rem;
+
+
         }
     }
 }
@@ -83,6 +99,7 @@ body {
         line-height: 1.5rem;
 
         &_important {
+            display: block;
             font-weight: 700;
             text-transform: uppercase;
 
@@ -289,8 +306,6 @@ body {
     }
 
     &-text {
-        max-width: 380px;
-
         &_title {
             position: relative;
             padding-top: 1.2rem;
@@ -484,10 +499,11 @@ h1.section_title {
             -webkit-filter: grayscale(1%);
             filter: grayscale(1%);
         }
+
         img {
             max-height: 90%;
             max-width: 90%;
-          }
-          
+        }
+
     }
 }
